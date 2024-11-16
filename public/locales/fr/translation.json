@@ -1,0 +1,10 @@
+{
+  "welcome": "Bienvenue",
+  "addLanguage": "Ajouter une nouvelle langue",
+  "enterLanguageCode": "Entrez le code de la langue (ex: es, de)",
+  "add": "Ajouter",
+  "invalidLanguageCode": "Code de langue invalide. Utilisez le format : 'es' ou 'fr-FR'",
+  "welcomeMessage": "Bienvenue sur notre plateforme de gestion d'atelier",
+  "login": "Se connecter",
+  "createAccount": "Créer un compte"
+}

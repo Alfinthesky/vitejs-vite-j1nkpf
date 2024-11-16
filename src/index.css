@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-primary text-text-primary bg-background;
+  }
+
+  h1 {
+    @apply font-secondary text-h1 font-bold mb-element;
+  }
+
+  h2 {
+    @apply font-secondary text-h2 font-semibold mb-element;
+  }
+
+  h3 {
+    @apply font-secondary text-h3 font-semibold mb-element;
+  }
+
+  p {
+    @apply text-base mb-4;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded bg-accent-bright text-white font-medium
+           transition-all duration-300
+           hover:bg-accent-hover hover:shadow-hover
+           focus:outline-none focus:ring-2 focus:ring-accent-bright focus:ring-opacity-50;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-light text-text-primary
+           hover:bg-gray-medium hover:text-white;
+  }
+
+  .input {
+    @apply w-full px-4 py-2 rounded border border-gray-border
+           focus:outline-none focus:ring-2 focus:ring-accent-bright focus:border-accent-bright
+           placeholder-gray-medium;
+  }
+
+  .card {
+    @apply bg-white rounded p-element shadow-card;
+  }
+
+  .section {
+    @apply mb-section;
+  }
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

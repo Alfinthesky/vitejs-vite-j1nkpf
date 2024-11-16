@@ -1,0 +1,10 @@
+{
+  "welcome": "Welcome",
+  "addLanguage": "Add a new language",
+  "enterLanguageCode": "Enter language code (e.g., es, de)",
+  "add": "Add",
+  "invalidLanguageCode": "Invalid language code. Please use format: 'es' or 'en-US'",
+  "welcomeMessage": "Welcome to our workshop management platform",
+  "login": "Login",
+  "createAccount": "Create account"
+}

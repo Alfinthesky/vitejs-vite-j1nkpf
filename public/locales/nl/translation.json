@@ -1,0 +1,10 @@
+{
+  "welcome": "Welkom",
+  "addLanguage": "Voeg een nieuwe taal toe",
+  "enterLanguageCode": "Voer de taalcode in (bijv. es, de)",
+  "add": "Toevoegen",
+  "invalidLanguageCode": "Ongeldige taalcode. Gebruik het formaat: 'es' of 'nl-NL'",
+  "welcomeMessage": "Welkom bij ons werkplaatsbeheersysteem",
+  "login": "Inloggen",
+  "createAccount": "Account aanmaken"
+}
